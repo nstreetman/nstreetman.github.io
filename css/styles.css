@@ -5,21 +5,18 @@ img {
   width: 100%;
   display: block; }
 
-#app-container {
-  font-family: "Proxima Nova", sans-serif; }
-
-.background {
-  width: 100%; }
-
 div .navbar {
   width: 100%; }
 
 .navbar h1 {
-  font-weight: 100; }
+  font-weight: 100;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px; }
 
 .navbar {
   color: #ecf0f1;
-  background-color: #22313F;
+  background-color: #004B8D;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -37,6 +34,9 @@ div .navbar {
 .navbar li {
   display: inline-block;
   text-decoration: none;
+  font-family: 'Spectral', serif;
+  font-weight: 200;
+  letter-spacing: 1px;
   font-size: 2rem;
   text-align: right;
   vertical-align: middle;
@@ -53,7 +53,7 @@ div .footer {
 
 .footer {
   color: #ecf0f1;
-  background-color: #22313F;
+  background-color: #004B8D;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -75,5 +75,20 @@ div .footer {
   text-align: right;
   vertical-align: middle;
   padding: 2px 15px 2px 15px; }
+
+.icon-social i {
+  font-size: 2em; }
+
+.footer a {
+  text-decoration: none; }
+
+.footer a:hover {
+  color: black; }
+
+.footer a:link {
+  color: #ecf0f1; }
+
+.footer a:visited {
+  color: #ecf0f1; }
 
 /*# sourceMappingURL=styles.css.map */
