@@ -1,0 +1,5 @@
+@mixin invert-on-hover($bg-color, $txt-color){
+  &:hover{
+    background: $bg-color;
+    color: $txt-color;
+  }
