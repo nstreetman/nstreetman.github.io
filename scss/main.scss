@@ -1,5 +1,6 @@
 @import "partials/dropdown-menu.scss";
 @import "partials/background-secondary-page.scss";
+@import "partials/bootstrap.scss";
 
 *{ box-sizing: border-box }
 img {
@@ -13,6 +14,13 @@ img {
 #app-container {
 }
 
+.vimeo{
+  width: 100%;
+}
+iframe .vimeo {
+  margin-left: auto;
+  margin-right: auto;
+}
 div .navbar {
   display: none;
 }
@@ -86,7 +94,7 @@ div .footer {
 }
 
 ///END TABLET - BEGIN FULL SCREEN///
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 992px){
   .mobile-nav {
     display: none;
   }
@@ -157,6 +165,7 @@ div .footer {
 //image//
 .background {
   display: block;
+  width: 100%;
 }
 
 .mobile-photo {
@@ -228,14 +237,15 @@ div .footer {
   .footer-text-mobile {
     display: none;
   }
-  .background-secondary-page {
-    background: url("../images/india-with-kids3.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-transform: uppercase;
-    width: 100%;
-    height: 100%;
-  }
+  // .background-secondary-page {
+  //   background: url("../images/india-with-kids3.jpg") no-repeat center center fixed;
+  //   -webkit-background-size: cover;
+  //   -moz-background-size: cover;
+  //   -o-background-size: cover;
+  //   background-size: cover;
+  //   text-transform: uppercase;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
 }
