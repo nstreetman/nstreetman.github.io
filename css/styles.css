@@ -74,6 +74,17 @@ img {
   height: 100%;
   background-color: #004B8D; }
 
+.bio-text a {
+  color: inherit; }
+
+.bio-text a:hover {
+  color: black; }
+
+p {
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  text-align: left; }
+
 .background-secondary {
   width: 100%;
   height: 100%;
@@ -157,6 +168,12 @@ div .footer {
 
 .background {
   display: none; }
+
+.bio-pic {
+  width: 50%;
+  border-radius: 3%;
+  margin-left: auto;
+  margin-right: auto; }
 
 @media screen and (min-width: 992px) {
   .mobile-nav {
