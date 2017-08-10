@@ -60,6 +60,9 @@
 .responsive-menu a:hover {
   color: #719db8; }
 
+.flexbox-container {
+  display: block; }
+
 * {
   box-sizing: border-box; }
 
@@ -74,7 +77,7 @@ img {
 .background-secondary {
   width: 100%;
   height: 100%;
-  background-color: #719db8;
+  background-color: #6da288;
   color: #ecf0f1;
   text-align: center;
   font-family: 'Spectral', serif;
@@ -133,7 +136,7 @@ div .footer {
   text-decoration: none; }
 
 .footer a:hover {
-  color: #719db8; }
+  color: #6da288; }
 
 .footer a:link {
   color: #ecf0f1; }
@@ -207,7 +210,7 @@ div .footer {
     text-decoration: none; }
 
   .menu-item a:hover {
-    color: #719db8; }
+    color: #6da288; }
 
   .navbar a:link {
     color: #ecf0f1; }
@@ -259,10 +262,10 @@ div .footer {
     color: #ecf0f1; }
 
   .footer a:hover {
-    color: #719db8; }
+    color: #6da288; }
 
   .footer i:hover {
-    color: #719db8; }
+    color: #6da288; }
 
   .footer a:visited {
     color: #ecf0f1; }
@@ -279,6 +282,14 @@ div .footer {
     text-align: center; }
 
   .footer-text-mobile {
-    display: none; } }
+    display: none; }
+
+  .flexbox-container {
+    display: flex; }
+
+  .thumbnail {
+    width: 600px;
+    margin-left: 8%;
+    margin-right: 5%; } }
 
 /*# sourceMappingURL=styles.css.map */
